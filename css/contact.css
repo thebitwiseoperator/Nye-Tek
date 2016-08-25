@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+form {
+    max-width: 550px;
+    height: 550px;
+}
+
+h1 {
+    color: #5A5A5A;
+}
+
+h1 span {
+    color: #863BC6;
+}
+
+.submit-button {
+    margin-top: 15px;
+    background-color: #863bc6;
+    color: #ffffff;
+}
+
+.submit-button:hover {
+    background-color: #ffffff;
+    color: #863bc6;
+}

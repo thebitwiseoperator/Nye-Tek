@@ -1,0 +1,203 @@
+@charset "UTF-8";
+html { 
+	height:100%;
+}
+body {
+  padding-top: 50px;
+  height:100%;
+}
+.pg-wrap { 
+	min-height:100%; 
+	margin-bottom:-200px;
+	padding-top:40px;
+	padding-left:15px;
+	padding-right:15px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.navbar-inverse { 
+	background-repeat:repeat-x; 
+	background-color:#000000;
+	padding-top:15px;
+	min-height:76px;
+}
+
+a.navbar-brand { 
+	color:#863bc6 !important;
+}
+a.navbar-brand span { 
+	color:#ffffff !important; 
+}
+.navbar-toggle { 
+	background-color:#863bc6; 
+}
+.nav-purple-bar { 
+	height:10px; 
+	width:100%; 
+	background-color:#863bc6;
+}
+h1 { 
+	text-transform:uppercase;
+}
+h1 span { 
+	color:#863bc6;
+}
+.awesome-clients { 
+	background-color:#000000; 
+	width:100%;
+	font-size:48px;
+	text-align:center;	
+	color:#ffffff;	
+}
+
+.awesome-clients span { 
+	color:#863bc6;
+}
+.spacer { 
+	margin-top:10px;
+}
+.col-lg-3 { 
+	width:255px; 
+	height:248px; 
+	background-repeat:no-repeat;
+}
+.nfl { 
+	background-image:url(../img/logos/nfl.jpg);
+}
+.verizon-indycar { 
+	background-image:url(../img/logos/verizon.jpg);
+}
+.kbo { 
+	background-image:url(../img/logos/kbo.jpg); 
+}
+.indycar { 
+	background-image:url(../img/logos/indycar.jpg);
+}
+.mlb { 
+	background-image:url(../img/logos/major-league-baseball.jpg);
+}
+.pga-tour { 
+	background-image:url(../img/logos/pga-tour.jpg); 
+}
+.lowes { 
+	background-image:url(../img/logos/lowes.jpg); 
+}
+.verizon { 
+	background-image:url(../img/logos/verizon-wireless.jpg); 
+}
+.rlm-communications { 
+	background-image:url(../img/logos/rlm-communications.jpg); 
+}
+.fsu { 
+	background-image:url(../img/logos/fayetteville-state-university.jpg); 
+}
+.carolina-biological { 
+	background-image:url(../img/logos/carolina-biological.jpg); 
+}
+.ftcc { 
+	background-image:url(../img/logos/fayetteville-technical-community-college.jpg); 
+}
+.cricket-wireless { 
+	background-image:url(../img/logos/cricket-wireless.jpg); 
+}
+.gryphon-group { 
+	background-image:url(../img/logos/gryphon-group.jpg); 
+}
+.omnigon-communications { 
+	background-image:url(../img/logos/omnigon-communications.jpg); 
+}
+.meat-mitch { 
+	background-image:url(../img/logos/meat-mitch-bbq.jpg); 
+}
+/* technologies thumbs list */ 
+
+.autodesk-3ds-max { 
+	background-image:url(../img/technologies/3ds-max.jpg); 
+}
+.unity-3d { 
+	background-image:url(../img/technologies/unity.jpg);
+}
+.c-sharp { 
+	background-image:url(../img/technologies/c-sharp.jpg);
+}
+.html-thumb { 
+	background-image:url(../img/technologies/html.jpg); 
+}
+.javascript-thumb { 
+	background-image:url(../img/technologies/javascript.jpg); 
+}
+.xcode { 
+	background-image:url(../img/technologies/xcode.jpg); 
+}
+.php-thumb { 
+	background-image:url(../img/technologies/php.jpg); 
+}
+.mysql-thumb { 
+	background-image:url(../img/technologies/mysql.jpg);
+}
+.adobe-premiere { 
+	background-image:url(../img/technologies/premiere.jpg); 
+}
+.adobe-after-effects { 
+	background-image:url(../img/technologies/after-effects.jpg);
+}
+.adobe-photoshop { 
+	background-image:url(../img/technologies/photoshop.jpg); 
+}
+.css-thumb { 
+	background-image:url(../img/technologies/css.jpg); 
+}
+.basecamp { 
+	background-image:url(../img/technologies/basecamp.jpg); 
+}
+
+.source-tree { 
+	background-image:url(../img/technologies/source-tree.jpg);
+}
+.eclipse { 
+	background-image:url(../img/technologies/eclipse.jpg); 
+}
+.edge-animate { 
+	background-image:url(../img/technologies/edge-animate.jpg); 
+}
+@media (max-width:1200px) {
+	.col-lg-3 { 
+		float:left;
+		width:25%;
+	}
+}
+@media (max-width:992px) {
+	.col-lg-3 { 
+		float:left;
+		width:33%;
+	}
+}
+@media (max-width:768px) {
+	.col-lg-3 { 
+		float:left;
+		width:50%;
+	}
+	#myCarousel { 
+		display:none; 
+	}
+}
+@media (max-width:480px) {
+	.col-lg-3 { 
+		float:left;
+		width:70%;
+		margin-left:16%;
+	}
+	#myCarousel { 
+		display:none; 
+	}
+}
+.push { 
+	height:215px;
+}
+.footer { 
+	background-color:#000000; 
+	width:100%; 
+	height:200px; 
+}

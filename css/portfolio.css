@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+h1 {
+    color: #5A5A5A;
+}
+
+span {
+    color: #863BC6;
+}
+
+.portfolio-feature {
+    height: auto;
+    width: 100%;
+    max-width: 1140px;
+}
+
+.portfolio-highlight {
+    height: 100px;
+    background-color: #000000;
+    color: #5a5a5a;
+    max-width: 1140px;
+}
+
+.title {
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    padding-top: 10px;
+    max-width: 1140px;
+}
+
+.play-badge {
+    background-image: url(../portfolio/img/en_generic_rgb_wo_45.png);
+    display: block;
+    height: 45px;
+    width: 129px;
+    margin-bottom: 33px;
+    float: left;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+}
+
+.itunes-badge {
+    display: block;
+    overflow: hidden;
+    background: url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;
+    width: 165px;
+    height: 40px;
+    float: left;
+    margin-top: 3px;
+}
+
+.clear {
+    height: 1px;
+    clear: both;
+}
